@@ -1,0 +1,4 @@
+{
+    "/company":"/company",
+    "/company/:company_id":"/company?company_id=:company_id"
+}
