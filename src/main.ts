@@ -8,7 +8,12 @@ import { createPinia } from "pinia";
 
 loadFonts();
 
-createApp(App).use(router).use(vuetify).use(createPinia()).mount("#app");
+// eslint-disable-next-line prettier/prettier
+createApp(App)
+  .use(router)
+  .use(vuetify)
+  .use(createPinia())
+  .mount("#app");
 
 // const pinia = createPinia();
 // pinia.use(piniaPluginPersistedstate);
